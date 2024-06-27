@@ -812,7 +812,7 @@ KAMAILIO-MIB DEFINITIONS ::= BEGIN
         MAX-ACCESS  read-only
         STATUS current
         DESCRIPTION 
-        "The number of transmitted websocket frames"
+        "The number of successful websocket handshakes"
         ::= { kamailioNetWsStat 8 }
 
     kamailioNetWsHandshakeFailed OBJECT-TYPE
@@ -820,7 +820,7 @@ KAMAILIO-MIB DEFINITIONS ::= BEGIN
         MAX-ACCESS  read-only
         STATUS current
         DESCRIPTION 
-        "The number of transmitted websocket frames"
+        "The number of failed websocket handshakes"
         ::= { kamailioNetWsStat 9 }
 
 
